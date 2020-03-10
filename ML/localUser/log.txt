@@ -1,1 +1,24 @@
-Thu Feb 20 2020 13:33:32 GMT-0600 (Central Standard Time)
+
+Tue Feb 25 2020 12:01:42 GMT-0600 (Central Standard Time) Request has been assigned to provider
+
+Tue Feb 25 2020 12:01:42 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:02 GMT-0600 (Central Standard Time) Request has been assigned to provider
+
+Tue Feb 25 2020 12:02:02 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:09 GMT-0600 (Central Standard Time) Request has been assigned to provider
+
+Tue Feb 25 2020 12:02:09 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:10 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:10 GMT-0600 (Central Standard Time) Request has been assigned to provider
+
+Tue Feb 25 2020 12:02:22 GMT-0600 (Central Standard Time) Request has been assigned to provider
+
+Tue Feb 25 2020 12:02:22 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:24 GMT-0600 (Central Standard Time) Request has been completed. Needs validation
+
+Tue Feb 25 2020 12:02:24 GMT-0600 (Central Standard Time) Request has been assigned to provider
