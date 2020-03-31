@@ -1,0 +1,16 @@
+In onionshare: 
+
+./dev_scripts/onionshare --website [filepath]
+
+ex
+
+./dev_scripts/onionshare --website ~/hello.txt
+
+Once it finishes setting up the connection (takes a minute) it will give
+you a URL. Keep it open
+
+In python script, do session.get(url +'/' + filename)
+
+ex 
+
+session.get('http://onionshare:designed-undermost@u4tyql4zltgi26bk.onion/hello.txt')
