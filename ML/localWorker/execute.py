@@ -739,9 +739,17 @@ if __name__ == '__main__':
             reqController()
             dockerExe()
             submitTask()
+            try:
+                os.system("rm -rf totalOrder.txt totalOrder.zip")
+            except:
+                pass
             hostController('image.zip')
         elif mode == 'validator':
             resetHost(False)
             reqController()
             dockerExe()
+            try:
+                os.system("rm -rf totalOrder.txt totalOrder.zip")
+            except:
+                pass
             submitTask()

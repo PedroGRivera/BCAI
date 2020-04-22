@@ -83,7 +83,6 @@ def shareOrder():
     totalStartTime = time.time()
     
     ######zip the total order, key, and nonce to share#########
-
     os.system('zip totalOrder.zip totalOrder.txt key.txt nonce.txt')
     time.sleep(5)    
 
@@ -731,8 +730,16 @@ if __name__ == '__main__':
                 if line.find('onionshare') != -1:
                     flag = False
                 time.sleep(5)
+            try:
+                os.system("rm -rf totalOrder.txt totalOrder.zip")
+            except:
+                pass
             reqController()
         else:
             reqController()
             dockerExe()
+            try:
+                os.system("rm -rf totalOrder.txt totalOrder.zip")
+            except:
+                pass
             hostController('image.zip')
