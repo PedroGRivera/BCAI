@@ -83,7 +83,7 @@ def shareOrder():
     totalStartTime = time.time()
     
     ######zip the total order, key, and nonce to share#########
-    os.system('zip totalOrder.zip totalOrder.txt key.txt nonce.txt')
+    os.system('zip totalOrder.zip totalOrder.txt key.txt nonce.txt >/dev/null 2>&1')
     time.sleep(5)    
 
     ###########################################################

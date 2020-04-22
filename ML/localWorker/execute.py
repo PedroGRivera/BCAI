@@ -80,12 +80,12 @@ def shareOrder():
     global totalStartTime
     while os.path.isfile('totalOrder.txt') != True:        
         time.sleep(5)
-        totalStartTime = time.time()
+    totalStartTime = time.time()
 
     ######zip the total order, key, and nonce to share#########
 
-        os.system('zip totalOrder.zip totalOrder.txt key.txt nonce.txt')
-        time.sleep(5)    
+    os.system('zip totalOrder.zip totalOrder.txt key.txt nonce.txt >/dev/null 2>&1')
+    time.sleep(5)    
 
     ###########################################################
 
